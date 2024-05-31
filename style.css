@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+
+body{
+  font-family: 'Barlow',sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size:50px;
+}
+h2{
+  margin: 30px;
+}
+p{
+  color: rgb(80, 80, 80);
+}
+#title{
+  font-family: 'Roboto Slab',
+  serif;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+#search-box{
+  text-align: center;
+}
+#search-input-feild{
+  padding: 10px;
+  width: 45%;
+  border-radius: 10px;
+  border: 3px solid rgb(148, 147, 147);
+  font-family: 'Montserrat',
+  sans-serif;
+  font-size: 18px;
+}
+#search-input-feild:focus{
+  border:none;
+  padding: 12.5px;
+}
+#search-btn{
+  background-color: rgb(241, 42, 215);
+  color: white;
+  border: none;
+  border-radius:10px;
+  padding: 12.5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 688px){
+  h1 {
+    font-size: 40px;
+  }
+  #search-box{
+    margin: 0px 5px;
+  }
+  #search-input-feild{
+    width: 65%;
+  }
+}
+.left-side{
+  width: 25%;
+}
+.right-side{
+  width: 65%;
+  margin-left: 50px;
+}
+@media only screen and (max-width: 992px){
+  .left-side {
+    width: 100%;
+  }
+  .right-side {
+    width: 100%;
+    margin: 5px;
+  }
+}
